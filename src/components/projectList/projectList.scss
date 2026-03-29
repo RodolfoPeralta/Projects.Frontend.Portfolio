@@ -1,0 +1,33 @@
+.project-list-container {
+
+    width: 70%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    justify-items: start;
+    margin: 0 auto;
+    gap: 20px;
+
+    .project-list-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 30px;
+        justify-self: start;
+    }
+
+    .project-list-items {
+        display: grid;
+        grid-template-rows: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 40px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .project-list-container {
+        width: 90%;
+
+        .project-list-title {
+            justify-self: center;
+        }
+    }
+}
