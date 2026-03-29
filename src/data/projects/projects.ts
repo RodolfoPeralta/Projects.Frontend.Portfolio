@@ -20,7 +20,7 @@ export const projects: ProjectType[] = [
         description: "Se trata del proyecto final del curso de Desarrollo Web de Coderhouse. Es un sitio web para la empresa donde trabajo, GIE Group. El proyecto está creado a partir de HTML, CSS, Bootstrap y SASS.",
         image: web,
         githubUrl: "https://github.com/RodolfoPeralta/CoderHouse.DesarrolloWeb.ProyectoFinal/tree/main",
-        deployUrl: "https://giegroup-rp.netlify.app/"
+        deployUrl: ""
     },
     {
         id: 2,
@@ -28,7 +28,7 @@ export const projects: ProjectType[] = [
         description: "Se trata del proyecto final del curso de Javascript de Coderhouse. Es un sitio web sobre preguntas y respuestas acerca de la saga de Harry Potter. El proyecto está creado a partir de HTML, CSS, SASS y Vanilla Javascript. Se hace uso de eventos, modificación del DOM, almacenamiento en local storage, entre otras cosas.",
         image: javascript,
         githubUrl: "https://github.com/RodolfoPeralta/CoderHouse.JavaScript.ProyectoFinal",
-        deployUrl: "https://bejewelled-puffpuff-970611.netlify.app/"
+        deployUrl: ""
     },
     {
         id: 3,
@@ -44,7 +44,7 @@ export const projects: ProjectType[] = [
         description: "Se trata de un proyecto frontend personal. Es un sitio web que permite a los usuarios buscar cualquier perfil de github, visualizando información del desarrollador junto con un listado de sus repositorios públicos. La aplicación está desarrollada usando la librería React y javascript, consumiendo la REST API de Github.",
         image: github,
         githubUrl: "https://github.com/RodolfoPeralta/Projects.Frontend.GithubSearchProfile",
-        deployUrl: "",
+        deployUrl: "https://githubsearchprofile-rp.netlify.app/",
     },
     {
         id: 5,
@@ -52,6 +52,6 @@ export const projects: ProjectType[] = [
         description: "Es una aplicación web moderna y reactiva diseñada para buscar recetas de cocina. Este proyecto consume la API de TheMealDB para ofrecer información detallada sobre comidas internacionales, incluyendo ingredientes y guías de preparación.",
         image: recipe,
         githubUrl: "https://github.com/RodolfoPeralta/Projects.Frontend.RecipePage",
-        deployUrl: ""
+        deployUrl: "https://recipe-page-rp.netlify.app/"
     }
 ]
